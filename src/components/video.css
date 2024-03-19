@@ -1,0 +1,26 @@
+.containerVideo {
+    background-color: #252826;
+    height: 100vh;
+    display: flex; /* Add this */
+    justify-content: center; /* Add this */
+    align-items: center; /* Add this */
+}
+
+.line {
+    height: 100vh;
+    width: 0.1px;
+    background-color: rgb(76, 76, 77);
+    position: absolute;
+}
+
+.line:nth-child(1) {
+    left: 10%;
+}
+
+.line:nth-child(2) {
+    left: 50%;
+}
+
+.line:nth-child(3) {
+    left: 90%;
+}

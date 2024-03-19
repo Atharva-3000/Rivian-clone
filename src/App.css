@@ -1,0 +1,26 @@
+/* App.css */
+body, html {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Ensure that the App container takes up the full height of the viewport */
+/* #app-container {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+} */
+
+/* Ensure that the content container takes up the remaining height */
+#content-container {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Ensure that the configurator container takes up the full width of the viewport */
+/* #configurator-container {
+    width: 100%;
+} */

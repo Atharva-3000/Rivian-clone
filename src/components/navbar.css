@@ -1,0 +1,14 @@
+.navvy{
+    background-color: transparent;
+    transition: background-color 0.35s;
+}
+.navvy:hover{
+    background-color: black;
+}
+.btn{
+    border: 1px solid white;
+    transform: border 0.5s;
+}
+.btn:hover{
+    border: 2px solid white;
+}
